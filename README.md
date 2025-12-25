@@ -44,7 +44,7 @@ This approach aligns more closely with **quantum control and hardware-aware mode
 ---
 
 ## Repository Structure
-
+```
 deutsch-jozsa-t1-noise/
 ├── README.md
 ├── paper/
@@ -67,7 +67,7 @@ deutsch-jozsa-t1-noise/
 │ └── deutsch_jozsa_t1_noise_final.pptx
 ├── CITATION.cff
 └── LICENSE
-
+```
 
 
 ---
