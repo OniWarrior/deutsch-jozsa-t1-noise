@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Effects of T1 Noise on the Deutsch–Jozsa Algorithm"
+message: "If you use this work, please cite it as follows."
+type: software
+
+authors:
+  - family-names: Aranda
+    given-names: Stephen
+
+year: 2023
+
+abstract: >
+  Hamiltonian-level analysis of the effects of T1 (amplitude damping) noise
+  on the Deutsch–Jozsa quantum algorithm using density-matrix evolution and
+  Lindblad dynamics.
+
+repository-code: "https://github.com/OniWarrior/deutsch-jozsa-t1-noise"
+
+license: MIT
