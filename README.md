@@ -93,8 +93,7 @@ During early testing, non-physical probabilities (greater than 1 or less than 0)
 
 ρ → ρ / Tr(ρ)
 
-yaml
-Copy code
+
 
 This observation motivated further investigation into **quantum error correction**, where auxiliary qubits can absorb noise without collapsing computational states.
 
