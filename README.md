@@ -54,15 +54,12 @@ deutsch-jozsa-t1-noise/
 │ ├── lindblad_derivation.md
 │ └── scans/
 ├── code/
-│ ├── src/
-│ │ ├── hamiltonians.py
-│ │ ├── unitary_evolution.py
-│ │ ├── lindblad_t1.py
-│ │ └── deutsch_jozsa.py
+│ ├── src/ 
+│ │ └── run_experiment.py
 │ └── requirements.txt
 ├── results/
-│ ├── raw/
 │ └── plots/
+│ 
 ├── presentation/
 │ └── deutsch_jozsa_t1_noise_final.pptx
 ├── CITATION.cff
@@ -143,6 +140,29 @@ Focus areas:
 - Hamiltonian-level modeling
 - Noise and decoherence
 - Reproducible scientific software
+
+---
+
+## Notes on Execution Environment
+
+This project was originally developed using IBM Quantum Lab as a hosted Python
+environment. IBM Quantum Lab was used only to provide access to standard
+scientific Python libraries and a notebook interface.
+
+The implementation does **not** rely on:
+- quantum hardware
+- Qiskit backends
+- device-specific calibration data
+- built-in noise models
+
+All quantum gates and noise processes are implemented explicitly using matrix
+operations, Hamiltonian-based unitary evolution, and the Lindblad master
+equation. As a result, the experiment is a **classical numerical simulation of
+quantum dynamics** and is fully reproducible in any local Python environment
+with NumPy and SciPy installed.
+
+Running the code outside of IBM Quantum Lab is therefore not only valid, but
+preferred for reproducibility and long-term accessibility.
 
 ---
 
