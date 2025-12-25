@@ -99,7 +99,7 @@ qubits.
 
 The Z gate was realized using the Hamiltonian:
 
-H_Z = (b / 2) Z
+H<sub>z</sub> = (b / 2) Z
 
 This Hamiltonian produces a phase flip when evolved for a π rotation.
 
@@ -107,7 +107,7 @@ This Hamiltonian produces a phase flip when evolved for a π rotation.
 
 To flip only the second qubit, the Hamiltonian was extended as:
 
-H_Z₂ = I ⊗ H_Z
+H<sub>Z2</sub> = I ⊗ H_Z
 
 Where:
 - `I` is the identity operator
