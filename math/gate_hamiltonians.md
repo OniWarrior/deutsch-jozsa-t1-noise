@@ -133,6 +133,19 @@ independently of gate dynamics.
 
 ---
 
+## Supporting Handwritten Derivations
+
+Original handwritten derivations used during this project are included for
+reference and verification:
+
+- Hadamard gate Hamiltonian construction  
+- Tensor-product extensions to two qubits  
+- Unitary time evolution calculations  
+
+See: `math/scans/`
+
+---
+
 ## Summary
 
 This Hamiltonian-based approach to gate construction provides:
