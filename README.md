@@ -1,7 +1,7 @@
 # Effects of T1 Noise on the Deutsch–Jozsa Algorithm
 
 📄 **Paper:** `paper/aranda_deutsch_jozsa_t1_noise.pdf`  
-📊 **Final Presentation:** `presentation/deutsch_jozsa_t1_noise_final.pptx`
+📊 **Final Presentation:** `presentation/deutsch_jozsa_t1_noise_final.pptx`<br/>
 **Link To Video Presentation** `https://drive.google.com/file/d/19lvcXTvzqOyRJaVlvsvBywDk_5nAE6ln/view?usp=sharing`
 
 
