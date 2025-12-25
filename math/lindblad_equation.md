@@ -158,6 +158,19 @@ computational states.
 
 ---
 
+## Supporting Handwritten Derivations
+
+Handwritten calculations used to derive and verify the Lindblad T1 noise model
+are provided in:
+
+- Lindblad master equation setup  
+- Modified σ₊ and σ₋ operators  
+- Density-matrix normalization  
+
+See: `math/scans/`
+
+---
+
 ## Summary
 
 By modeling T1 noise using the Lindblad master equation and applying it directly
