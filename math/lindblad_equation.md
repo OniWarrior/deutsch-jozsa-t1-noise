@@ -58,11 +58,13 @@ time evolution governed by the Lindblad equation.
 T1 relaxation (amplitude damping) was modeled using the Lindblad master equation:
 
 dρ/dt = γ [ σ₋ ρ σ₊ − 1/2 { σ₊ σ₋ , ρ } ]
+dρ/dt​=γ(LρL†−21​{L†L,ρ})
 
 Where:
 - `γ` is the relaxation rate
 - `σ₊` and `σ₋` are the raising and lowering operators
-- `{A, B}` denotes the anticommutator
+- or in the second version
+- `L`
 
 This equation describes irreversible decay from an excited state to the ground
 state.
@@ -168,6 +170,21 @@ are provided in:
 - Density-matrix normalization  
 
 See: `math/scans/`
+
+---
+
+## Note on σ⁺ / σ⁻ Convention
+
+It is worth noting that the naming of ladder operators σ⁺ and σ⁻ is not
+universal across the literature.
+
+In some quantum mechanics texts,
+σ⁺ is defined as the lowering operator and σ⁻ as the raising operator. In other
+references, the opposite convention is used.
+
+In this project, the operator labeled σ⁺ acts as a lowering operator on the
+target qubit, mapping the excited state to the ground state. The physical action
+of the operator, not its label, determines the T1 relaxation behavior.
 
 ---
 
