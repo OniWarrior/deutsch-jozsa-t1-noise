@@ -2,6 +2,8 @@
 
 📄 **Paper:** `paper/aranda_deutsch_jozsa_t1_noise.pdf`  
 📊 **Final Presentation:** `presentation/deutsch_jozsa_t1_noise_final.pptx`
+**Link To Video Presentation** `https://drive.google.com/file/d/19lvcXTvzqOyRJaVlvsvBywDk_5nAE6ln/view?usp=sharing`
+
 
 This repository contains a **Hamiltonian-level investigation** of how **T1 (amplitude damping) noise** affects the Deutsch–Jozsa quantum algorithm.
 
@@ -168,4 +170,4 @@ preferred for reproducibility and long-term accessibility.
 
 ## Notes
 
-This project was conducted as part of *PHYS 4346: Quantum Mechanics for Engineers and Programmers* and reflects original analytical and experimental work. All gates and noise processes were derived manually to emphasize physical realism over abstraction.
+This project was conducted as part of *PHYS 4346: Quantum Mechanics for Engineers and Programmers* and reflects original analytical and experimental work. All gates and noise processes were derived manually to emphasize physical realism over abstraction. The video submission was for the final exam for CS 4341 as I was able to use this project as a submission for the final exam.
